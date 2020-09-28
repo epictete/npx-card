@@ -1,5 +1,5 @@
 {
-  "name": "@epictete/card",
+  "name": "epictete",
   "version": "1.0.0",
   "description": "A personal card for John Laterre (@epictete)",
   "main": "/bin/card.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/epictete"
+    "url": "git+https://github.com/epictete/npx-card"
   },
   "homepage": "https://epictete.github.io",
   "scripts": {
@@ -40,8 +40,5 @@
   "bugs": {
     "url": "https://github.com/epictete"
   },
-  "dependencies": {},
-  "publishConfig": {
-    "registry": "https://npm.registry.github.com/"
-  }
+  "dependencies": {}
 }

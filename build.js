@@ -22,7 +22,7 @@ const data = {
   github: chalk.gray('https://github.com/') + chalk.green('epictete'),
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('john-laterre'),
   web: chalk.cyan('https://epictete.github.io/'),
-  npx: chalk.red('npx') + ' ' + chalk.white('epictete  (via GitHub Package Registry)'),
+  npx: chalk.red('npx') + ' ' + chalk.white('epictete'),
   labelWork: chalk.white.bold('       Work:'),
   labelnpm: chalk.white.bold('        npm:'),
   labelGitHub: chalk.white.bold('     GitHub:'),
