@@ -1,0 +1,47 @@
+{
+  "name": "@epictete/card",
+  "version": "1.0.0",
+  "description": "A personal card for John Laterre (@epictete)",
+  "main": "/bin/card.js",
+  "bin": {
+    "epictete": "./bin/card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epictete"
+  },
+  "homepage": "https://epictete.github.io",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "node build.js",
+    "dev": "npm run build && node ./bin/card.js",
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "author": "John Laterre <john.laterre@gmail.com> (https://github.com/epictete)",
+  "license": "MIT",
+  "files": [
+    "bin/card.js",
+    "bin/output"
+  ],
+  "devDependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.2",
+    "standard": "^12.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/epictete"
+  },
+  "dependencies": {},
+  "publishConfig": {
+    "registry": "https://npm.registry.github.com/"
+  }
+}
